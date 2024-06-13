@@ -1,7 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const resolveTsconfigPathsToAlias = require("./resolve-tsconfig-path-to-webpack-alias");
-const bundleOutputDir = "./";
+const bundleOutputDir = "./dist";
 
 module.exports = {
   mode: "production",
