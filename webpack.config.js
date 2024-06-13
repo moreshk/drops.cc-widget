@@ -1,8 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const resolveTsconfigPathsToAlias = require("./resolve-tsconfig-path-to-webpack-alias");
-var copyWebpackPlugin = require("copy-webpack-plugin");
-const bundleOutputDir = "./dist";
+const bundleOutputDir = "./";
 
 module.exports = {
   mode: "production",
@@ -29,7 +28,7 @@ module.exports = {
     ],
   },
   output: {
-    filename: "widget.js",
+    filename: "dropz-widget.js",
     path: path.resolve(bundleOutputDir),
   },
   devServer: {
