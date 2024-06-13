@@ -12,7 +12,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     <DynamicContextProvider
       theme="auto"
       settings={{
-        environmentId: "e25de024-4234-485b-aaff-a113f1cb5ba3",
+        environmentId: "59c1b683-fdab-47aa-8a6c-e2b053838e84",
         walletConnectors: [SolanaWalletConnectors],
         events: {
           onLogout: async (event) => {
